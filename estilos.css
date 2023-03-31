@@ -2,6 +2,14 @@
     font-family: 'filosofo';
     src: url(fuentes/Philosopher-Bold.ttf);
 }
+@media only screen and (min-width : 901px) {
+    //tu CSS
+    }
+    
+    
+    @media only screen and (max-width : 900px) {
+    //tu CSS
+    }
 body{
     background-image: url(img/escudo3.jpg);
     background-attachment: fixed;
@@ -632,4 +640,8 @@ main div figure .entrenador2{
     -webkit-transform-style: preserve-3d;
     transform: rotateY(180deg);
     transform-style: preserve-3d;
+}
+.campaña{
+
+    text-align: center;
 }
